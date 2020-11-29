@@ -18,21 +18,21 @@ def ping(update, context):
 @typing
 def get_help(update, context):
     update.message.reply_text('''
-    小さな小さな賢将, can help you collect images from various sites.
-    Commands:
+    小さな小さな賢将，能够帮助您从各个站点收集图像。
+    命令列表:
     /ping - pong
-    /pixiv <id> - view pixiv artwork
-    /pixiv_download <id> - download pixiv artwork
-    /danbooru <id> - view danbooru post
-    /danbooru_download <id> - download danbooru post
-    /yandere <id> - view yandere post
-    /yandere_download <id> - download yandere post
-    /konachan <id> - view konachan post
-    /konachan_download <id> - download konachan post
+    /pixiv <id> - 查看 Pixiv 作品
+    /pixiv_download <id> - 下载 Pixiv 作品
+    /danbooru <id> - 查看 danbooru 帖图
+    /danbooru_download <id> - 下载 danbooru 帖图
+    /yandere <id> - 查看 yandere 帖图
+    /yandere_download <id> - 下载 yandere 帖图
+    /konachan <id> - 查看 konachan 帖图
+    /konachan_download <id> - 下载 konachan 帖图
     /bookmark <id> - bookmark pixiv artwork
-    /clear_downloads - clear download cache
-    /help - get this help text
-    PS: Send Pixiv/Danbooru/Yandere/Konachan/Twitter URL to download image(s)
+    /clear_downloads - 清除下载缓存
+    /help - 获取帮助文本
+    PS: 给我发 Pixiv/Danbooru/Yandere/Konachan/Twitter URL 来下载图片 😆
     ''')
 def collection_update(update, context):
     message = update.message
