@@ -11,7 +11,7 @@ sites = SiteManager()
 storage = Storage()
 
 def start(update, context):
-    update.message.reply_text('Hi!')
+    update.message.reply_text('嗨!')
 @typing
 def ping(update, context):
     update.message.reply_text('pong!')
